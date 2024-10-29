@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Single+Day&display=swap');
 
 html{
-    background-color:#ccc;
+    background-color:#272727;
 }
 
 body {
-    font-family:Arial,sans-serif;
-    background-color:#fff;
+    font-family:'Single Day', serif;
+    background-color:#211f1f;
     max-width:960px;
     width:90%;
     margin:auto;
@@ -14,11 +14,23 @@ body {
 }
 
 h1.page-header{
-    font-family:'Inknut Antiqua',serif;
+    font-family: 'Rubik Beastly', system-ui;
     width:80%;
     margin:auto;
     text-align:center;
-    text-shadow: 4px 4px 4px #aaa;
+    font-size: 3em;
+    text-shadow: 4px 4px 4px #6e2d2d;
+}
+
+a{
+    color:#5BCEFA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f5a9b8;
+    background-color: whitesmoke;
+    text-decoration: none;
 }
 
 /* start nav rules */
@@ -27,7 +39,8 @@ nav{
 }
 
 nav a{
-    color:#000;
+    color:#f5a9b8;
+    text-decoration: none;
 }
 
 nav ul {
