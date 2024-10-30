@@ -22,6 +22,10 @@
                 color:#6e2d2d;
                 background-color: aquamarine;
             }
+
+            div.grandKids li{
+                background-color: mediumslateblue;
+            }
         </style>
     </head>
     <body>
@@ -93,6 +97,25 @@
                 </ul>    
             </div>
             <div id="new-div">This is a new div</div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><a id="descendant">descendant</a></legend>
+            <p>A descendant selector allows us to access elements at any depth within the cueent element.</p>
+            <p>Here's how the CSS is applied to the elements:</p>
+            <pre><code>div.grandKids li{
+    background-color:mediumslateblue;
+}</code></pre>
+
+            <p>Here's what it looks like:</p>
+            <div class="grandKids">
+                <ul>
+                    <li>I'm in an li inside the grandkids div.</li>
+                    <li>I'm in an li inside the grandkids div.</li>
+                    <li>I'm in an li inside the grandkids div.</li>
+                </ul>    
+            </div>
 
         </fieldset>
 
