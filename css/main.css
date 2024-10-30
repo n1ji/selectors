@@ -2,6 +2,7 @@
 
 html{
     background-color:#272727;
+    color:#fff;
 }
 
 body {
@@ -19,6 +20,8 @@ h1.page-header{
     margin:auto;
     text-align:center;
     font-size: 3em;
+    font-weight: 10;
+    font-style: normal;
     text-shadow: 4px 4px 4px #6e2d2d;
 }
 

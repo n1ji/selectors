@@ -16,6 +16,11 @@
             li.my-list{
                 background-color: pink;
             }
+            
+            li.new-list,div#new-div{
+                color:#6e2d2d;
+                background-color: aquamarine;
+            }
         </style>
     </head>
     <body>
@@ -28,9 +33,10 @@
                 <li><a href="#id">id</a></li>
                 <li><a href="#class">class</a></li>
                 <li><a href="#compound">compound</a></li>
+                <li><a href="#descendant">descendant</a></li>
             </ul>
         </nav> 
-    </header>           
+    </header>
         <p>This page demonstrates how CSS selectors work<a target="_blank" href="https://c.tenor.com/OtIgs6CCN3UAAAAd/tenor.gif">.</a></p>
         
         <fieldset>
@@ -65,6 +71,27 @@
                     <li class="my-list">This is in a list with a class of "my-list"</li>
                 </ul>    
             </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><a id="compound">compound</a></legend>
+            <p>A compound selector allows for multiple selector blocks separated by commas.</p>
+            <p>Here's how the CSS is applied to the elements:</p>
+            <pre><code>li.new-list,div#new-div{
+    color:#6e2d2d;
+    background-color:aquamarine;
+}</code></pre>
+
+            <p>Here's what it looks like:</p>
+            <div>
+                <ul>
+                    <li class="new-list">This is in a list with a class of "new-list"</li>
+                    <li class="new-list">This is in a list with a class of "new-list"</li>
+                    <li class="new-list">This is in a list with a class of "new-list"</li>
+                </ul>    
+            </div>
+            <div id="new-div">This is a new div</div>
 
         </fieldset>
 
